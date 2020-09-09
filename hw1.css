@@ -1,0 +1,139 @@
+@import url(https://fonts.googleapis.com/css?family=Fjalla+One);
+body {
+    padding: 5px;
+    margin: 3px;
+    background: #ffffff;
+    float: left;
+    margin-left: 10px;
+}
+
+header {
+    background: #666666;
+    padding: 5px;
+    background-image: url("flywheel.jpg");
+    text-align: center;
+    margin: 2px;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+
+nav a {
+    display: inline-block;
+    margin: 5px;
+    margin-left: 65px;
+    margin-bottom: 45px;
+    border-radius: 4px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: rgb(188, 188, 238, 0.5);
+    width: 14%;
+    color: rgba(0, 0, 0);
+    font-size: x-large;
+}
+
+.active {
+    background-color: #ff8989;
+    color: #ff0000;
+}
+
+main {
+    display: inline-block;
+}
+
+.left {
+    display: block;
+    background: #0aa847;
+    width: 20%;
+    height: 100%;
+    padding: 5px;
+    float: left;
+    margin: 2px;
+}
+
+.right {
+    margin: 2px;
+    font-size: 100%;
+    font-weight: 400;
+    /* display: inline-block;
+    display: inline-block; */
+    float: right;
+    width: 70%;
+    height: 100vh;
+    margin-left: 25px;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 2px solid black;
+}
+
+table {
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    font-family: "Times New Roman", Arial, Helvetica, sans-serif;
+    font-size: 90%;
+    width: 70%;
+}
+
+tr {
+    opacity: 0.6;
+}
+
+tr:hover {
+    opacity: 1;
+}
+
+tr:focus {
+    opacity: 1;
+}
+
+tr:first-child {
+    opacity: 1;
+}
+
+th {
+    background: rgb(2, 0, 36);
+    background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 99%);
+    background: -o-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 99%);
+    background: -moz-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 99%);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 16%, rgba(0, 212, 255, 1) 99%);
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000000;
+    border: 2px solid rgba(2, 0, 36, 1);
+    border-bottom: 5px solid rgba(252, 70, 107, 1);
+    -webkit-border-radius: 10% 10% 0 0;
+    border-radius: 10% 10% 0 0;
+    height: 90%;
+    line-height: 200%;
+    font-size: 120%;
+}
+
+th:first-child {
+    padding-left: 1%;
+    text-align: left;
+}
+
+td {
+    padding: 5px;
+    background: #66ffff;
+    color: #595959;
+    border: 1px;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-shadow: 0.2px 0.2px #000000;
+}
+
+td:first-child {
+    padding-left: 2%;
+    text-align: left;
+}
